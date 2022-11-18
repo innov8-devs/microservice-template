@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2017",
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "outDir": "build", // Types should go into this directory.
+    "baseUrl": "./" /* Redirect output structure to the directory. */,
+    "rootDir": "./",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["/**/*.ts", "src/**/*"]
+}
